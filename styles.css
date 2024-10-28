@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ /* Header Styles */
+ .header {
+     background-color: #007bff;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+ 
+ .header__title {
+     font-size: 2em;
+     margin-bottom: 10px;
+ }
+ 
+ .header__nav {
+     margin-top: 10px;
+ }
+ 
+ /* Container for layout */
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+ }
+ 
+ /* Structure (Container) */
+ .card {
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     padding: 16px;
+     margin: 10px;
+     width: 250px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Content (Skin) */
+ .card__title {
+     font-size: 1.5em;
+     color: #333;
+     margin-bottom: 8px;
+ }
+ 
+ .card__description {
+     font-size: 1em;
+     color: #666;
+     margin-bottom: 16px;
+ }
+ 
+ /* Button Structure */
+ .button {
+     display: inline-block;
+     padding: 10px 15px;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+ }
+ 
+ /* Button Skin */
+ .button--primary {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .button--primary:hover {
+     background-color: #0056b3;
+ }
+ 
+ .button--secondary {
+     background-color: #6c757d;
+     color: white;
+ }
+ 
+ .button--secondary:hover {
+     background-color: #5a6268;
+ }
+ 
+ /* Navigation Button Skin */
+ .button--nav {
+     background-color: transparent;
+     color: white;
+     border: 2px solid white;
+     margin: 0 5px;
+ }
+ 
+ .button--nav:hover {
+     background-color: white;
+     color: #007bff;
+ }
+ 
+ /* Footer Styles */
+ .footer {
+     background-color: #f8f9fa;
+     text-align: center;
+     padding: 10px;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+ }
+ 
